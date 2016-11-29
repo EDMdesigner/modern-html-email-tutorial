@@ -1,0 +1,120 @@
+
+greg	[1:22 PM]  
+nem tom mni lehet jelen esetben azortodox :smile:
+
+[1:23]  
+elvben, én kilógok a tömegből, mert a többség standard buzi (edited)
+
+[1:23]  
+én a gyakorlatilag igazolt elvekben hiszek inkább.. pl div.clr meg negativ margók
+
+[1:24]  
+de ha meg a modern megközelítést nézzük, sokaknak elég ha egy chrome már futtatja, akkor épitsünk rá mindnet :smile: - ahhoz képest, tényleg ortodox vagyok :D:D
+
+gy	[1:27 PM]  
+én sztem olyan értelemben vagyok unortodox, hogy mérnök szemmel tekintek erre is :smile:
+
+[1:27]  
+De majd meglátod
+
+[1:27]  
+sztem nagyon szépen struktúrált lett
+
+[1:27]  
+csak nem tudom pl, hogy szembemegyek-e valamilyen alapelvekkel
+
+greg	[2:19 PM]  
+step02-ben hirtelen bonyi lesz a html, de a css-ekben csak a színek jelennek meg pluszban - én kivenném innét még a container600as divet pl.. mert azt hirtelen nem érteni - ha sak az adott lépést nézem
+
+gy	[2:21 PM]  
+igaz
+
+greg	[2:22 PM]  
+step 6ban átállsz fluidra, amit ha levezhetsz nagyon király, mert logikus lépés responsive jövőre nézve.
+
+[2:23]  
+viszont, abban a pillanatban, hogy nem fix pixel, én beraknék egy box-sizing: border-box; vagy padding-box-ot;
+
+[2:24]  
+az egyrészt kivédi ha véletlen paddingolsz vagy borderezel ezena dobozon és akkor is maradjon a float, másrészt olykor segít jobban kihúzni a teljes szélességre - mert felfogja mi a feladata :smile: (edited)
+
+[2:24]  
+de igaz, elég modern css feature
+
+[2:24]  
+és ha ebből email lesz, kitudja bölcs-e idekerverni...
+
+[2:25]  
+step7-ben, ha  button kap transition-t, adj külön a hovernek is, egyébként a böngészőn múlik hogy örökölteti-e, de elvben nem szokták...
+
+[2:29]  
+végére jutottam
+
+[2:30]  
+szeritnem, érvényesül amit akartál, moduláris, már túl steril módon, de magyarázáshoz szerintem így jobb, mint a már kissé kevert változat, ami 30-40%al kisbb css-t eredményez..
+
+[2:31]  
+közben a gyakorlatban sokan ellenzik a css-prop-jellegű classneveket, pl .center, vagy .marginTop100... - de szerintem ez most nem a frontend szakmának készül, hanem az email marketingesnek...
+
+[2:32]  
+így ez sem probléma, sőt segít separálni a css tulajdonságok hatásait...szóval szemléltetésnek szerintem kiváló
+
+[2:33]  
+a html layout +  css prop kezelésed alapján, nagyjából letagadhatatlan szeirntem hogy dolgoztunk együtt :D:D
+
+[2:34]  
+a reset + conténer div + content div szerkezet alapján, dejavum van :smile:
+
+[2:34]  
+div.clr meg a hab a tortán :smile:
+
+[2:35]  
+az ugye, egyébként már papíron nagyon elavultnak számít... ma a 90% :after  pseudo-selectorral clearfixel, van is rá nagyon be vett css snippet .cleafix {} de nem rövidebb a cssben, és csak modernek kezelik, míg a .clr betonbiztos és csak pár html elem pluszba..
+
+[2:36]  
+összességében, veszélyben a sitebuilderi munkaköröm :D:D:D
+
+[2:37]  
+ha egy metodikai tanácsot a cikkhez elfogadsz, kb diffeld minden szintet az előzővel, és magyarázd el hogy mi mimért változott, milyen előnye, vagy későbbi hozadéka van/lesz - ezekben simán tudok segíteni is, szólsz és átnézzük együttt
+
+[2:38]  
+de szerintem azoknank, akiknek ezt szánjuk, kell hogy érthetőek legyenek a lépések
+
+gy	[2:39 PM]  
+hi
+
+[2:39]  
+király
+
+[2:39]  
+annyira nem a marketingesek a célcsoport
+
+[2:39]  
+mert tech blog lesz belőle
+
+[2:40]  
+de mondjuk egy kezdő bárki, aki email htmlt akar a végén csinálni
+
+greg	[2:40 PM]  
+valahogy igy értettem, :slightly_smiling_face:
+
+gy	[2:40 PM]  
+oks :slightly_smiling_face:
+
+greg	[2:40 PM]  
+aki még tanuló fázisban van, annak ezek midn hasznos alapok
+
+gy	[2:40 PM]  
+igen, mindenképp akartam ilyet az elejére, hogy lehessen mire referálni
+
+[2:40]  
+meg legalább én is gyakorlok :slightly_smiling_face:
+
+greg	[2:40 PM]  
+a modern htmlben a legacy jellegű dolgok, minta  div.clr ugye emailben tökjól magyarázható lesz, miért kell a tábla..
+
+gy	[2:41 PM]  
+köszi a kommenteket, sztem ez alapján már neki merek állni a cikk megfogalmazásának
+
+greg	[2:41 PM]  
+szerintem nagyon ügyesen összeraktad ezt, az apró logikai dolgokat meg a amgyarázatok írása közben ki lehet zárni
