@@ -1,0 +1,1 @@
+Spacings + text lengths.

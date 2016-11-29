@@ -1,0 +1,1 @@
+Column related css added. Clear both element added.

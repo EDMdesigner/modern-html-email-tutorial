@@ -1,0 +1,1 @@
+We added the basic html structure and colors.css.

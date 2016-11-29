@@ -1,0 +1,18 @@
+.container600 {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.cols .w200 {
+	width: 200px;
+	float: left;
+}
+
+.cols .w400 {
+	width: 400px;
+	float: left;
+}
+
+.clr {
+	clear: both;
+}
