@@ -49,7 +49,8 @@
 	];
 
 	var actStr = "[You are reading it now]";
-	var actPostIdx = getParameterByName("p");
+	var scripts = document.getElementsByTagName("script");
+	var actPostIdx = getParameterByName("p", scripts[scripts.length - 1].src);
 	actPostIdx = parseInt(actPostIdx);
 
 	document.write('<div id="posts-toc">');
