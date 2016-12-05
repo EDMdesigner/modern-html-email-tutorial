@@ -80,4 +80,5 @@
 	}
 	document.write("</ul>");
 	document.write("</div>");
+	document.write("<style>#posts-toc{border: 1px solid #e6e6e6;background: #fafafa;padding: 20px;margin: 20px;}</style>");
 }());
