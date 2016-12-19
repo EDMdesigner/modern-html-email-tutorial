@@ -1,0 +1,1 @@
+Adding full width colored rows.

@@ -1,0 +1,26 @@
+#header {
+	z-index: 2;
+}
+
+#header #menu {
+	position: absolute;
+
+	width: 100%;
+
+	top: 0;
+	left: 0;
+}
+
+#header #hero {
+	padding-top: 130px;
+
+	text-align: center;
+}
+
+#content {
+	z-index: 1;
+}
+
+#footer {
+	z-index: 1;
+}
