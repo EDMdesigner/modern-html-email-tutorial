@@ -18,7 +18,7 @@
 		},
 		{
 			title: "The Basics of HTML and CSS - Part Two",
-			url: "http://blog.edmdesigner.com/the-basics-of-html-and-css-part-two/"
+			//url: "http://blog.edmdesigner.com/the-basics-of-html-and-css-part-two/"
 		},
 		{
 			title: "The Basics of Modern HTML Emails"
