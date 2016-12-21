@@ -30,13 +30,6 @@
 #footer {
 	position: relative;
 	z-index: 1;
-}
 
-.new-decorator {
-	position: absolute;
-
-	width: 100px;
-	height: 100px;
-	margin-left: -7px;
-	margin-top: -5px;
+	text-align: center;
 }

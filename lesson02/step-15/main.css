@@ -1,12 +1,11 @@
 #header {
+	position: relative;
 	z-index: 2;
 
 	background-image: url(img/email-pattern-white.png);
 }
 
 #header #menu {
-	z-index: 2;
-
 	position: absolute;
 
 	width: 100%;
@@ -24,10 +23,12 @@
 }
 
 #content {
+	position: relative;
 	z-index: 1;
 }
 
 #footer {
+	position: relative;
 	z-index: 1;
 }
 
@@ -40,9 +41,6 @@
     background: url(img/socials.png) 0 0 no-repeat;
 }
 
-#footer a#f-fb {
-    background-position: 0 -50px;
-}
 
 #footer a#f-fb {
 	background-position: 0 -50px;
