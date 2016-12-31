@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Litmus Test Results</title>
+	<style>
+		.container800 {
+			width: 100%;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		.cols .w33 {
+			width: 33.33%;
+			float: left;
+		}
+
+		.cols .w66 {
+			width: 66.66%;
+			float: left;
+		}
+
+		.cols:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		img {
+			display: block;
+			max-width: 100%;
+
+			margin: 0 auto;
+		}
+
+		ul {
+			height: 100%;
+			overflow: scroll;
+		}
+
+		.active {
+			background-color: #C92C1E;
+			color: #FFFFFF;
+		}
+
+		#menu {
+			height: 500px;
+			overflow: scroll;
+		}
+	</style>
+</head>
+<body>
+	<div class="container800">
+		<div class="cols">
+			<div class="w33">
+				<div>Previews powered by <a href="http://litmus.com">Litmus</a></div>
+				<div id="menu">
+					<ul data-bind="foreach: images">
+						<li data-bind="text: $data, css: {active: $root.selectedIdx() === $index()}, click: $root.selectedIdx.bind(null, $index())"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="w66">
+				<div data-bind="text: selectedSrc"></div>
+				<img data-bind="attr: {src: selectedSrc}" />
+			</div>
+		</div>
+	</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
+<script src="images.js"></script>
+<script>
+	function getParameterByName(name, url) {
+		if (!url) {
+			url = window.location.href;
+		}
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	var vm = {
+		images: images,
+		selectedIdx: ko.observable(parseInt(getParameterByName("idx")) || 0)
+	};
+
+	vm.selectedSrc = ko.computed(function() {
+		var idx = vm.selectedIdx();
+		return vm.images[idx];
+	});
+
+	ko.applyBindings(vm);
+</script>
+</body>
+</html>
