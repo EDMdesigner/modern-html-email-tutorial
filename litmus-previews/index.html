@@ -85,7 +85,7 @@
 
 	var imagesScript = document.createElement("script");
 	imagesScript.src = "../lesson" + lesson + "/step-" + step + "/litmus-results/images.js";
-	imagesScript.load = function() {
+	imagesScript.onload = function() {
 		vm.images(images);
 	};
 
