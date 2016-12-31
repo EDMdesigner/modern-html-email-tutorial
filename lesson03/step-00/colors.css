@@ -1,0 +1,22 @@
+body {
+	background-color: #F4F4F4;
+}
+
+a {
+	color: #58585A;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+	color: #58585A;
+}
+
+.bg-brown {
+	background-color: #F8F7F0;
+	color: #58585A;
+}
+
+.bg-gray {
+	background-color: #58585A;
+	color: #FFFFFF;
+}

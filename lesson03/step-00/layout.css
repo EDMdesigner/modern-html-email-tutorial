@@ -1,0 +1,10 @@
+.container600 {
+	width: 600px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 599px) {
+	.container600 {
+		width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+#header img {
+	width: 210px;
+}
+
+#content a {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+}
