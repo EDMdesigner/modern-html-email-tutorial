@@ -84,7 +84,7 @@
 	var step = getParameterByName("step");
 
 	var imagesScript = document.createElement("script");
-	imagesScript.src = "lesson" + lesson + "/step-" + step + "/images.js";
+	imagesScript.src = "../lesson" + lesson + "/step-" + step + "/litmus-results/images.js";
 	imagesScript.load = function() {
 		vm.images(images);
 	};
