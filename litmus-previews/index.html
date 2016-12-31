@@ -58,7 +58,6 @@
 		</div>
 	</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
-<script src="images.js"></script>
 <script>
 	function getParameterByName(name, url) {
 		if (!url) {
@@ -72,7 +71,7 @@
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 	var vm = {
-		images: images,
+		images: ko.observableArray([]),
 		selectedIdx: ko.observable(parseInt(getParameterByName("idx")) || 0)
 	};
 
@@ -80,6 +79,15 @@
 		var idx = vm.selectedIdx();
 		return vm.images[idx];
 	});
+
+	var lesson = getParameterByName("lesson");
+	var step = getParameterByName("step");
+
+	var imagesScript = document.createElement("script");
+	imagesScript.src = "lesson" + lesson + "/step" + step + "/images.js";
+	imagesScript.load = function() {
+		vm.images(images);
+	};
 
 	ko.applyBindings(vm);
 </script>
