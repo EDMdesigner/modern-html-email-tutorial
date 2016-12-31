@@ -77,7 +77,7 @@
 
 	vm.selectedSrc = ko.computed(function() {
 		var idx = vm.selectedIdx();
-		return vm.images[idx];
+		return "../lesson" + lesson + "/step-" + step + "/litmus-results/" + vm.images[idx];
 	});
 
 	var lesson = getParameterByName("lesson");
