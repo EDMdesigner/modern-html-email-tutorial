@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple One Column Layout</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<style>
+		/* defaults */
+		html, body, div, p, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-size:10px;
+			line-height:10px;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			font-family: Arial, sans-serif;
+		}
+
+
+		h1 {
+			font-size: 28px;
+			line-height: 32px;
+
+			margin-bottom: 24px;
+		}
+
+		h2 {
+			font-size: 24px;
+			line-height: 28px;
+
+			margin-bottom: 20px;
+		}
+
+		h3 {
+			font-size: 20px;
+			line-height: 24px;
+
+			margin-bottom: 16px;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 20px;
+
+			font-family: Georgia, Arial, sans-serif;
+		}
+
+		/* colors */
+		body {
+			background-color: #F4F4F4;
+		}
+
+		.wrapper {
+			background-color: #F4F4F4;
+		}
+
+		a {
+			color: #58585A;
+		}
+
+		.bg-white {
+			background-color: #FFFFFF;
+			color: #58585A;
+		}
+
+		.bg-brown {
+			background-color: #F8F7F0;
+			color: #58585A;
+		}
+
+		.bg-gray {
+			background-color: #58585A;
+			color: #FFFFFF;
+		}
+
+		/* images */
+		img {
+			width: 100%;
+			height: auto;
+
+			display: block;
+
+			margin: 0;
+		}
+
+		/* spacings */
+		.sm-padding {
+			padding: 10px;
+		}
+
+		.m-padding {
+			padding: 30px;
+		}
+
+		.m-padding-tb {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+
+
+		/* layout */
+		.container600 {
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		@media all and (max-width: 599px) {
+			.container600 {
+				width: 100%;
+			}
+		}
+
+		/* main structure */
+		#header img {
+			width: 210px;
+		}
+
+		#content a {
+			display: block;
+			width: 100%;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		#footer {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container600">
+			<div class="sm-padding">
+				<div id="header" class="m-padding bg-white">
+					<img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson03/img/logo.png" />
+				</div>
+				<div id="content" class="m-padding bg-brown">
+					<h1>Confirm Registration</h1>
+					<p>
+						But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+					</p>
+					<a href="http://edmdesigner.com" class="m-padding-tb">Confirm</a>
+				</div>
+				<div id="footer" class="m-padding bg-gray">
+					<p>
+						2017 @ COPYRIGHT - EDMDESIGNER
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
