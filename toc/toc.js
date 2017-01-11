@@ -21,7 +21,8 @@
 			url: "http://blog.edmdesigner.com/the-basics-of-html-and-css-part-two/"
 		},
 		{
-			title: "The Basics of Modern HTML Emails"
+			title: "The Basics of Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/the-basics-of-modern-html-emails/"
 		},
 		{
 			title: "Responsive Techniques in Modern HTML Emails"
