@@ -25,7 +25,8 @@
 			url: "http://blog.edmdesigner.com/the-basics-of-modern-html-emails/"
 		},
 		{
-			title: "Responsive Techniques in Modern HTML Emails"
+			title: "The Drop Calc Method to Create Responsive HTML Emails",
+			url: "http://blog.edmdesigner.com/the-drop-calc-method-to-create-responsive-html-emails/"
 		},
 		{
 			title: "Images and Videos in Modern HTML Emails"
