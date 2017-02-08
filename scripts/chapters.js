@@ -29,6 +29,10 @@
 			url: "http://blog.edmdesigner.com/the-drop-calc-method-to-create-responsive-html-emails/"
 		},
 		{
+			title: "HTML Email Width - Overcoming the 600px Barrier",
+			url: "http://blog.edmdesigner.com/html-email-width-overcoming-the-600px-barrier/"
+		},
+		{
 			title: "Images and Videos in Modern HTML Emails"
 		},
 		{
