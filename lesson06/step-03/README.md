@@ -1,27 +1,49 @@
 ## Content images in Modern HTML Emails
 
-The sample image has a "600px" width dimension set in the head and applied on the image element as a CSS class.
+The two sample images in the project setup got one CSS class each, width a dimension:
+- one with width given in pixels (600px), and 
+- one with width given in percentage (100%)
+which resolved image display for:
+
+*Both works on:*
 
 Desktop:
 - Apple Mail 9, 10
-- Outlook 2000, 2002, 2003, 2011, 2016
-- Lotus Notes 8
+- Outlook 2011, 2016
 - Thunderbird
 
-Mobile clients:
-
-All clients, but Android 4.4 and IPhone 5s (IOS 8) and IPhone 6 series looked nice.
-
 Web clients:
+- AOL Mails
+- Comcasts
+- freenet.de
+- G Suite
+- Gmail
 - Yahoo! Mail
 - Web.de
 - Outlook clients
-- Office 365
-- GMX.de
-- G Suite
-- Comcast
+etc.
 
-All clients, but Mail.ru and Terra Mail looked nice. They do not support CSS class.
+*Online attribute applied percent width works:* 
+
+Desktop:
+- Outlook 2000, 2002, 2003
+- Lotus Notes 8
 
 
-https://litmus.com/checklist/emails/public/493f20c
+*Both method failed for:*
+
+Desktop:
+- Outlook 2007, 2010, 2013, 2013 120 DPI
+- Windows 10 Mail
+- Lotus Notes 8.5
+- IBM Notes 9
+
+Mobile clients:
+- Android 4.4
+
+Web client:
+- Terra Mail
+- Mail.ru
+
+
+https://litmus.com/checklist/emails/public/dc07b14
