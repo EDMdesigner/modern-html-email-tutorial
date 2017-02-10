@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Drop Calc Method to Create Responsive HTML Emails</title>
+    <style>
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      table td {
+        border-collapse: collapse;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Outermost container in Outlook.com */
+      
+      .ReadMsgBody {
+        width: 100%;
+      }
+      
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+    </style>
+    <style>
+      .container600 {
+        width: 600px;
+      }
+      
+      .col50 {
+        width: 50%;
+      }
+      
+      .col33_333333 {
+        width: 33.333333%;
+      }
+      
+      @media all and (max-width: 599px) {
+        img {
+          width: 100% !important;
+        }
+        .container600 {
+          width: 100% !important;
+        }
+        .reorder {
+          width: 100% !important;
+        }
+      }
+    </style>
+
+    <!--[if gte mso 9]>
+        <style>
+            .ol {
+              width: 100%;
+            }
+        </style>
+    <![endif]-->
+  </head>
+  <body>
+    <center>
+
+      <!--[if gte mso 9]><table width="600" cellpadding="0" cellspacing="0"><tr><td>
+                    <![endif]-->
+      <table class="container600" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:calc(600px);margin: 0 auto;">
+        <tr>
+          <td width="100%" style="text-align: left;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td width="100%" style="min-width:100%;">
+                  <h1 style="font-family:Arial;font-size:36px;line-height:44px;padding-top:10px;padding-bottom:10px">Multi-Column test</h1>
+                  <h2 style="font-family:Arial;font-size:32px;line-height:42px;padding-top:10px;padding-bottom:10px">Two Columns</h2>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="100%" valign="top" style="min-width: 100%;">
+
+                        <!--[if gte mso 9]><table width="100%" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                          <!--[if gte mso 9]><td width="50%" valign="top">                                                <![endif]-->
+                        <table class="ol col50 reorder" width="100%" align="left" style="width: calc(50%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:red;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">A</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]><td width="50%" valign="top">                                                <![endif]-->
+                        <table class="ol col50 reorder" width="100%" align="left" style="width: calc(50%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:green;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">B</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]></td></tr></table>                                                <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <h2 style="font-family:Arial;font-size:32px;line-height:42px;padding-top:10px;padding-bottom:10px">Three Columns</h2>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="100%" valign="top" style="min-width: 100%;">
+
+                        <!--[if gte mso 9]><table width="100%" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="left" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:red;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">A</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="left" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:white;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">B</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="left" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:green;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">C</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]></td></tr></table>                                                <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="100%" valign="top" style="min-width: 100%;">
+
+                        <!--[if gte mso 9]><table width="100%" cellpadding="0" cellspacing="0"dir="rtl"><tr><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="right" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:red;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">A</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="right" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:white;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">B</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]><td width="33.333333%" valign="top">                                                <![endif]-->
+                        <table class="ol col33_333333 reorder" width="100%" align="right" style="width: calc(33.333333%);" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="background-color:green;">
+                              <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">C</p>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!--[if gte mso 9]></td><![endif]-->
+                          <!--[if gte mso 9]></td></tr></table>                                                <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="33.333333%" valign="top" style="background-color:red;">
+                        <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">A</p>
+                      </td>
+                      <td width="33.333333%" valign="top" style="background-color:white;">
+                        <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">B</p>
+                      </td>
+                      <td width="33.333333%" valign="top" style="background-color:green;">
+                        <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;padding-top:10px;padding-bottom:10px">C</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+      <!--[if gte mso 9]></td></tr></table>
+                    <![endif]-->
+    </center>
+  </body>
+</html>
