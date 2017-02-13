@@ -1,9 +1,43 @@
 ## Content images in Modern HTML Emails
 
-Building on the experiences of the previous steps, we apply pixel width in the HTML "width" attribute, and a "max-width" property in the CSS "style" attribute. We also add a "display:block" to the "style" attribute on the image tag, to prevent the cell taking up extra space below the image.
+We have the following image dimensioning properties defined:
+- 600px width applied as an attribute,
+- display: block; applied as CSS inline style,
+- max-width: 100%; applied as CSS inline style,
+which resolved image display for:
 
+*Correct display for:*
 
-Error only occurs for Office 365 Firefox and Chrome.
+Desktop:
+- Apple Mail 9, 10
+- All of Outlooks
+- Thunderbird
+- Lotus Notes 8, 8.5
+- IBM Notes 9
+
+Mobile clients:
+- All of them.
+
+Web clients:
+- AOL Mails
+- Comcasts
+- freenet.de
+- G Suite
+- Gmail
+- Yahoo! Mail
+- Web.de
+- Outlook clients
+etc.
+
+*Problems occur for:*
+
+Desktop:
+- Windows 10 Mail - red vertical line
+- Lotus Notes 7 - no image display
+
+Web client:
+- Terra Mail - no email display (Explorer), additional spacing (Chrome)
+. Outlook.com and Outlook 365 - horizontal line at the bottom sometimes appear, not in every test case
 
 
 https://litmus.com/checklist/emails/public/91e246f
