@@ -30,7 +30,7 @@
 		},
 		{
 			title: "HTML Email Width - Overcoming the 600px Barrier",
-			url: "http://blog.edmdesigner.com/html-email-width-overcoming-the-600px-barrier/"
+			url: "http://blog.edmdesigner.com/html-email-width-overcoming-the-600px-limitation/"
 		},
 		{
 			title: "Images and Videos in Modern HTML Emails"
