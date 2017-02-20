@@ -5,7 +5,7 @@ The two sample images in the project setup got one CSS class each, width a dimen
 - one with width given in percentage (100%)
 which resolved image display for:
 
-*Both works on:*
+**Both works on:**
 
 Desktop:
 - Apple Mail 9, 10
@@ -23,14 +23,14 @@ Web clients:
 - Outlook clients
 etc.
 
-*Online attribute applied percent width works:* 
+**Online attribute applied percent width works:** 
 
 Desktop:
 - Outlook 2000, 2002, 2003
 - Lotus Notes 8
 
 
-*Both method failed for:*
+**Both method failed for:**
 
 Desktop:
 - Outlook 2007, 2010, 2013, 2013 120 DPI

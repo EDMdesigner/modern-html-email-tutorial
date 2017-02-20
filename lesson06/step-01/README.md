@@ -5,7 +5,7 @@ The two sample images in the project setup got a "100" percentage width dimensio
 - one as an inline CSS style property 
 which resolved image display for:
 
-*Both works on:*
+**Both works on:**
 
 Desktop:
 - Apple Mail 9, 10
@@ -20,10 +20,10 @@ Web clients:
 Almost all clients looked nice.
 
 
-*Width applied as attribute works:* 
+**Width applied as attribute works:** 
 Windows 10 Mail (desktop)
 
-*Both method failed for:*
+**Both method failed for:**
 - Outlook 2000, 2002, 2003, 2007, 2010, 2013, 2013 120 DPI
 - Lotus Notes 7, 8, 8.5
 - IBM Notes 9
