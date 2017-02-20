@@ -1,56 +1,36 @@
 ## Content images in Modern HTML Emails
 
-With the previously built image component we are testing Base64 encoding support across clients.
+Base64 encoding is tested as an alternative method for including images in email.
+The test suite features Email on Acid tests, with additional Litmus test notes in some cases.
 
-*Content shows up even with image blocking on:*
 
-Desktop:
-- Apple Mail 9, 10
-- Outlook 2003
-- Thunderbird
+**Visible for enabled and disabled image blocking**
+- Apple Mail 8, 9, 10
+- Outlook 2003 (no support with Litmus)
+- AOL Mails (only works image blocking of with Litmus)
+- Yahoo! Mails (with Litmus aswell)
+(Thunderbird belongs here with Litmus)
+- Mobile clients (they don't have display off) except Android 5.1, 6.0  
 
-Web client:
-- Yahoo! Mail clients
 
-*Content shows up only when image blocking is off*
+**Visible only image blocking off**
+- Outlook 2016 (Mac)
+- Thunderbird (Toggle image blocking was not available, supported in tests with Litmus)
+- BOL (Toggle image blocking was not available)
+- Comcast (Toggle image blocking was not available)
+- Mail.ru (Toggle image blocking was not available)
 
-Web client:
-- AOL Mail clients
-- freenet.de
 
-*Content shows up only when image blocking is on*
-Desktop: 
-- Office 2016
-- Comcast (Chrome)
-
-*Not testable with visual test for image blocking*
-but they support Base64 in general
-
-Desktop:
-- IBM Notes 9
-
-Mobile clients:
-- Android 4.4.4
-- iPad devices (Retina, Air, Mini, iPad 2 with iOS 8 and 9)
-- iPhone devices (5S, 6, 6 Plus all with iOS9)
-
-Web clients:
-- Mail.ru
-- Terra Mail
-
-*Not supported at all:*
-
-Desktop:
-- Outlook 2007, 2010 (+ 120 DPI). 20013 (+ 120 DPI)
-
-Mobile:
-- Android 5.1.0
-- Android Gmail 6
-- Gmail App iOS 7
-
-Web clients:
+**Base64 is not supported**
+- Lotus Notes 6.5, 7, 8, 8.5 (Toggle image-blocking was not available)
+- Outlook 2007, 2010, 2011, 2013, 2016
 - Gmail
 - Office 365
-- Outlook.com
+- Outlook.com (Toggle image blocking was not available)
+- GMX (Toggle image-blocking was not available)
+- freenet.de (Toggle image blocking was not available, some support on Litmus)
+- Orange.fr (Toggle image blocking was not available)
+- T-online.de (Toggle image blocking was not available)
+(Android 5.1, 6.0 versions with Litmus)
 
 https://litmus.com/checklist/emails/public/de3ddf2
