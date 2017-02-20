@@ -5,7 +5,7 @@ The two sample images in the project setup got a "600px" width dimension:
 - one as an inline CSS style property 
 which resolved image display for:
 
-*Both works on:*
+**Both works on:**
 
 Desktop:
 - Apple Mail 9, 10
@@ -20,7 +20,7 @@ All clients, but Android 4.4 looked nice.
 Web clients:
 All clients, but Terra Mail looked nice.
 
-*Width applied as attribute works:* 
+**Width applied as attribute works:** 
 
 Desktop:
 - Outlook 2007, 2010, 2013, 2013 120 DPI
