@@ -1,53 +1,41 @@
 ## Content images in Modern HTML Emails
 
-We make test for ALT text support investigation. By not defining 
-the src attribute and setting height on images, it becomes possible
-to examine the client support.
+We have two separated container component. Inside them two section components each.
+One contains the `h2` tag, the other contains a `multicol` component with two images.
+The images are sized equally as the `multicol`s size, so it is visible if they apply the
+the following properties unexpectedly:
+
+- "width: 100%;" as CSS inline style, in the first `multicol`
+- "max-width: 100%;" as CSS inline style in the second `multicol`.
 
 
-**Styled ALT text supported:**
-Desktop:
+**Both max-width and width applied:**
+
 - Apple Mail 9, 10
-- Lotus Notes 8
-- IBM Notes 9
-- Outlook 2000, 2002, 2011, 2016
-- Thunderbird 45
+- Outlook 2007, 2010, 2011, 2013, 2013 120 DPI, 2016
+- Windows 10 Mail
+- Thunderbird
 
-Mobile: 
-- iPhone 6, (iOS 8)
-- iPhone 6 Plus (iOS 8)
-- iPhone 6s Plus (iOS 9)
-- iPhone 7, 7Plus (iOS 10.2)
+- Android 4.4
+- all iPhones
 - iPad (Retina, Mini)
 
-web clients:
-- AOL Mails
-- Comcasts
-- freenet.de
-- G Suite
-- Gmail
-- Inbox by Gmail
-- Mail.ru
-- Office 365
-- Outlook.com
-- Yahoo! Mail
+- all Web clients
 
-**Only ALT text supported:**
-- Lotus Notes 7
+**Only width applied:**
+- Gmail App IMAP (Android)
+- Android 5.1, 6.0
+- Androi
 
-**ALT text not supported:**
-- Outlook 2007, 2010, 2013 (+120 DPI version)
-- Windows 10 Mail
-- Android 4.4
-- Gmail App IMAP (Android 4.4)
-- Android 5.1
-- Android 6.0
-- iPhone 5s (iOS 7)
-- iPhone 5s (iOS 8)
 
-**Display problems**
-- GMX.de
-- Web.de
 
+**Only max-width applied:**
+
+- Lotus Notes 8, 8.5
+- IBM Notes 9
+- Outlook 2000, 2002, 2003
+
+
+Lotus Notes 7 - no image display
 
 https://litmus.com/checklist/emails/public/3ddf28e
