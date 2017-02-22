@@ -25,7 +25,6 @@ the following properties unexpectedly:
 **Only width applied:**
 - Gmail App IMAP (Android)
 - Android 5.1, 6.0
-- Androi
 
 
 
