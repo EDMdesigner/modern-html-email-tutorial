@@ -33,7 +33,8 @@
 			url: "http://blog.edmdesigner.com/html-email-width-overcoming-the-600px-limitation/"
 		},
 		{
-			title: "Images and Videos in Modern HTML Emails"
+			title: "Content Images In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/content-images-in-modern-html-emails/"
 		},
 		{
 			title: "Paddings, Margins and Borders in Modern HTML Emails"
