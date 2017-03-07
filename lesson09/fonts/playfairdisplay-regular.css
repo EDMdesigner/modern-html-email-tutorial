@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.eot');
+    src: url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('https://sinkronstudio.hu/tlof/fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
