@@ -44,7 +44,7 @@
 			title: "Typography In Modern HTML Emails"
 		},
 		{
-			title: "Typography in Modern HTML Emails"
+			title: "Paddings, Margins and Borders in Modern HTML Emails"
 		},
 		{
 			title: "Tabular Data in Modern HTML Emails"
