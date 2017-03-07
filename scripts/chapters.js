@@ -37,10 +37,11 @@
 			url: "http://blog.edmdesigner.com/content-images-in-modern-html-emails/"
 		},
 		{
-			title: "Paddings, Margins and Borders in Modern HTML Emails"
+			title: "Bulletproof Buttons In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/bulletproof-buttons-in-modern-html-emails/"
 		},
 		{
-			title: "Bulletproof Buttons in Modern HTML Emails"
+			title: "Typography In Modern HTML Emails"
 		},
 		{
 			title: "Typography in Modern HTML Emails"
