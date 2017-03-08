@@ -37,8 +37,8 @@
 			url: "http://blog.edmdesigner.com/content-images-in-modern-html-emails/"
 		},
 		{
-			title: "Bulletproof HTML Email Buttons - New Line-height Based Approach",
-			url: "http://blog.edmdesigner.com/bulletproof-html-email-buttons-new-line-height-based-approach/"
+			title: "Bulletproof HTML Email Buttons - A New Line-height Based Approach",
+			url: "http://blog.edmdesigner.com/bulletproof-html-email-buttons-a-new-line-height-based-approach/"
 		},
 		{
 			title: "Typography In Modern HTML Emails"
