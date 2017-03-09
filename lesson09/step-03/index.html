@@ -116,12 +116,12 @@
         padding-bottom: 8px;
       }
       
-      
       p {
         font-size: 16px;
         line-height: 20px;
         font-family: Georgia, Arial, sans-serif;
-      } 
+      }
+      
     
     blockquote {
         font-size: 16px;
@@ -136,6 +136,24 @@
         color:inherit;
     }
 
+    ul {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+      
+    ol {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+      
+    li {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: Georgia, Arial, sans-serif;
+    }
+
     a {
         color:#bf2424;
         text-decoration:none;
@@ -143,6 +161,14 @@
     a:link, a:hover, a:visited {
         color:#bf2424;
         text-decoration:none;
+    }
+    
+    pre {
+        margin:20px 0;
+        padding:0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:14px;
+        line-height: 19px;
     }
     
     .sectionHeading {
@@ -178,42 +204,63 @@
                   <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
                     <tr>
                       <td width="100%" style="min-width:100%;background-color:#F8F7F0;color:#58585A;padding:30px;">
-                        <h1 style="font-size:28px;line-height:32px;font-family:Arial;padding-top:10px;padding-bottom:24px;">Typography sample</h1>
-                        <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;">In this sample html, I would like to demonstrate how text-styles acts in Email HTML. This is a regular paragraph.</p>
+                            <h1 style="font-size:28px;line-height:32px;font-family:Arial;padding-top:10px;padding-bottom:24px;">Typography sample</h1>
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">In this sample html, I would like to demonstrate how text-styles acts in Email HTML. This is a regular paragraph.</p>
                           
                             <h1 style="font-size:28px;line-height:32px;font-family:Arial;padding-top:10px;padding-bottom:24px;">Heading One</h1>
 
                             <h2 style="font-size:24px;line-height:28px;font-family:Arial;padding-top:10px;padding-bottom:20px;">Heading Two</h2>
                             
-                            <p>Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
                             <h3 style="font-size:20px;line-height:24px;font-family:Arial;padding-top:10px;padding-bottom:16px;">Heading Three</h3>
 
-                          <p>I'm a Paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <a href="https://edmdesigner.github.io/modern-html-email-tutorial" style="text-decoration:none;"><span style="color:#bf2424">aliquam erat</span></a> volutpat. Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">I'm a Paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna <a href="https://edmdesigner.github.io/modern-html-email-tutorial" style="text-decoration:none;"><span style="color:#bf2424">aliquam erat</span></a> volutpat. Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <b>Duis autem veleum iriure dolor</b> in hendrerit in vulputate <i>velit esse</i> molestie consequat, vel willum <u>lunombro dolore</u> eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p> 
 
                             <blockquote>This is a regular blockquote. Aenean nulla odio, ultricies sit amet imperdiet et, malesuada quis lorem. Nunc non est non nisl finibus bibendum. Curabitur placerat tempus purus ut consectetur. Nam dictum purus sagittis convallis efficitur. Nunc tempus eget leo a mollis. Vivamus a tortor ipsum. Aliquam quam augue, tempus at lacus sed, porttitor tempor nisl.</blockquote>
                             
                             <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                    			<tr>
-                     				 <td width="100%" style="min-width:100%; background-color:#7d7d7d; padding-top:10px;padding-bottom:16px;">
-                                      	<h3 class="sectionHeading" style="font-size:20px;line-height:24px;font-family:Arial; color:#ffffff; text-align: center; text-transform:uppercase; letter-spacing: 3.5px;padding:0;">.sectionHeading</h3> 
+                                <tr>
+                                      <td width="100%" style="min-width:100%; background-color:#7d7d7d; padding-top:10px;padding-bottom:16px;">
+                                          <h3 class="sectionHeading" style="font-size:20px;line-height:24px;font-family:Arial; color:#ffffff; text-align: center; text-transform:uppercase; letter-spacing: 3.5px;padding:0;">.sectionHeading</h3> 
                                     </td>
-                    			</tr>
-                  			</table>
+                                </tr>
+                              </table>
 
                             <h4 style="font-size:18px;line-height:21px;font-family:Arial;padding-top:10px;padding-bottom:12px;">Heading Four</h4>
                             
-                            <p>Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                             
                             <h5 style="font-size:16px;line-height:21px;font-family:Arial;padding-top:10px;padding-bottom:8px;">Heading Five</h5>
                             
-                            <p>Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                             
                             <h6 style="font-size:14px;line-height:21px;font-family:Arial;padding-top:10px;padding-bottom:8px;">Heading Six</h6>
 
-                            <p>Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                            <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;margin:0;padding-bottom:20px;">Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel willum lunombro dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 
-                            <pre>Preformatted code text.</pre>
+                            <ul style="margin-left: 20px;margin-top: 10px;margin-bottom: 10px;">
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">First Item of an unordered-list.</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Second Item
+                                    <ul style="margin-left: 20px;margin-top: 10px;margin-bottom: 10px;">
+                                        <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">First Item</li>
+                                        <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Second Item</li>
+                                        <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Third Item</li>
+                                    </ul>
+                                </li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Third Item</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Fourth Item</li>
+                            </ul>
+
+                            <ol style="margin-left: 20px;margin-top: 10px;margin-bottom: 10px;">
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">First Item of an ordered-list</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Second Item</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Third Item</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Fourth Item</li>
+                                <li style="font-size: 16px;line-height: 20px;font-family: Georgia, Arial, sans-serif;">Fifth Item</li>
+                            </ol>
+
+                            <pre style="margin:20px 0;padding:0;font-family: 'Courier New', Courier, monospace;font-size:14px; line-height:19px;">Preformatted code text.</pre>
 
                       </td>
                     </tr>
