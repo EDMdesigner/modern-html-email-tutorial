@@ -3,4 +3,4 @@
 In this lesson, we prepare background image for the BODY tag.
 
 You can check the Litmus test results following this URL:
-https://litmus.com/checklist/emails/public/e88b4a4
+https://litmus.com/checklist/emails/public/435c204
