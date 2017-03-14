@@ -1,4 +1,4 @@
-## Background images in Modern HTML Emails - step 04
+## Background images in Modern HTML Emails - step 06
 
 In this lesson, we add a body wrapper table to fix BODY background image in web-based clients.
 
