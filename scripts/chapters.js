@@ -41,7 +41,8 @@
 			url: "http://blog.edmdesigner.com/bulletproof-html-email-buttons-a-new-line-height-based-approach/"
 		},
 		{
-			title: "Typography In Modern HTML Emails"
+			title: "Typography In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/typography-in-modern-html-emails/"
 		},
 		{
 			title: "Paddings, Margins and Borders in Modern HTML Emails"
