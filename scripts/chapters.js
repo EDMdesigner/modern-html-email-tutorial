@@ -25,19 +25,30 @@
 			url: "http://blog.edmdesigner.com/the-basics-of-modern-html-emails/"
 		},
 		{
-			title: "Responsive Techniques in Modern HTML Emails"
+			title: "The Drop Calc Method to Create Responsive HTML Emails",
+			url: "http://blog.edmdesigner.com/the-drop-calc-method-to-create-responsive-html-emails/"
 		},
 		{
-			title: "Images and Videos in Modern HTML Emails"
+			title: "HTML Email Width - Overcoming the 600px Barrier",
+			url: "http://blog.edmdesigner.com/html-email-width-overcoming-the-600px-limitation/"
+		},
+		{
+			title: "Content Images In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/content-images-in-modern-html-emails/"
+		},
+		{
+			title: "Bulletproof HTML Email Buttons - A New Line-height Based Approach",
+			url: "http://blog.edmdesigner.com/bulletproof-html-email-buttons-a-new-line-height-based-approach/"
+		},
+		{
+			title: "Background Images In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/background-images-in-modern-html-emails/"
+		},
+		{
+			title: "Typography In Modern HTML Emails"
 		},
 		{
 			title: "Paddings, Margins and Borders in Modern HTML Emails"
-		},
-		{
-			title: "Bulletproof Buttons in Modern HTML Emails"
-		},
-		{
-			title: "Typography in Modern HTML Emails"
 		},
 		{
 			title: "Tabular Data in Modern HTML Emails"
