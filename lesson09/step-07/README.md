@@ -6,4 +6,4 @@ some spacing problems on legacy clients.
 
 
 You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/d96248c)
+![](https://litmus.com/checklist/emails/public/60e5980)
