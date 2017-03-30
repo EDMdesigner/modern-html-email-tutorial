@@ -1,6 +1,6 @@
 ## Typography in Modern HTML Emails
 
-Inline styles gets added to heading elements, paragraphs and "sectionHeading".
+Inline styles added for Headings and Paragraphs.
 
 **There is still no spacings**
 Desktop:
