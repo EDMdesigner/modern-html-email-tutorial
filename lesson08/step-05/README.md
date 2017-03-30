@@ -1,7 +1,7 @@
-## Background images in Modern HTML Emails - step 04
+## Background images in Modern HTML Emails - step 05
 
 In this lesson, we prepare background image for the BODY tag,
-using indivual background properties.
+using `background` shorthand property.
 
 
 ** Background image shows up:**
@@ -38,4 +38,4 @@ using indivual background properties.
 
 
 You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/e88b4a4)
+![](https://litmus.com/checklist/emails/public/435c204)
