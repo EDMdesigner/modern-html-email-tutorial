@@ -1,10 +1,10 @@
 ## Typography in Modern HTML Emails
 
-SectionHeading gets and additional table wrapper to reach desired visual. Some inline tags added for showcase regular tag based formatting (b, i, u)
+Some inline tags are added to showcase regular tag based formatting (`b`, `i`, `u`).
 
-Hyperlink gets inline span wrapper, and inline styles to keep the right color, and remove underline.
+Hyperlink gets inline `span` wrapper, and inline styles to keep the right color, and remove underline.
 
-Ul, OL elements get inline styles.
+`Ul`, `ol` elements get inline styles.
 
 Also added head styles and inlined styles for PRE element.
 
