@@ -45,7 +45,8 @@
 			url: "http://blog.edmdesigner.com/background-images-in-modern-html-emails/"
 		},
 		{
-			title: "Typography In Modern HTML Emails"
+			title: "Typography In Modern HTML Emails",
+			url_: "http://blog.edmdesigner.com/typography-in-modern-html-emails/"
 		},
 		{
 			title: "Paddings, Margins and Borders in Modern HTML Emails"
