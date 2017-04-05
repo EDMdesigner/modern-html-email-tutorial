@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Typography lesson - step 05</title>
+    <title>Typography lesson - step 07</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link href="https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/fonts/ralewayregular.css" rel="stylesheet" type="text/css">
-    <link href="https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/fonts/playfairdisplay-regular.css" rel="stylesheet" type="text/css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lobster');
+        @import url('https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/fonts/ralewayregular.css');
+        @import url('https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/fonts/playfairdisplay-regular.css');
+    </style>
       
     <style>
       html,
@@ -76,6 +78,14 @@
         }
       }
     </style>
+
+    <!--[if gte mso 9]>
+        <style>
+            .mso-font-fix {
+              font-family: Arial, sans-serif;
+            }
+        </style>
+    <![endif]-->
   </head>
   <body style="background-color:#F4F4F4;">
     <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
@@ -106,7 +116,7 @@
                           <table cellpadding="0" cellspacing="0" border="0" width="100%">
                             <tr>
                               <td style="padding-top:10px;padding-bottom:10px;">
-                                <p style="font-family:Georgia,Arial;font-size:16px;line-height:20px;margin:0;">In this sample html, I would like to demonstrate how text-styles acts in Email HTML. This is a regular paragraph with a table wrapper. Padding values moved from P to TD. Our freshly included self-hosted custom fonts: <span style="font-family: ralewayregular, arial, sans-serif; font-size:18px;text-transform:uppercase;">Raleway</span>, <span style="font-family: playfair_displayregular, arial, sans-serif; font-size:18px;text-transform:uppercase;">Playfair display</span></p>
+                                <p style="font-family:Georgia,Arial;font-size:16px;line-height:20px;margin:0;">In this sample html, I would like to demonstrate how text-styles acts in Email HTML. This is a regular paragraph with a table wrapper. Padding values moved from P to TD. Our freshly included self-hosted custom fonts: <span style="font-family: ralewayregular, arial, sans-serif; font-size:18px;text-transform:uppercase;"><span class="mso-font-fix">Raleway</span></span>, <span style="font-family: playfair_displayregular, arial, sans-serif; font-size:18px;text-transform:uppercase;"><span class="mso-font-fix">Playfair display</span></span></p>
                               </td>
                             </tr>
                           </table>

@@ -1,8 +1,8 @@
 ## Typography in Modern HTML Emails
 
-In the previous step we forget to add basic formatting for some heading elements (h4, h5, h6), for list elements, like UL and OL, and for Links. Necessary stylings added to Head style.
+In the previous step we "forgot" to add basic formatting for some heading elements (h4, h5, h6), list elements, like UL and OL, and for `link`s. Necessary styling was added inside `head` as embedded styles.
 
-New element with classname "sectionHeading" added to showcase a different approach for inner headings. Also basic css added to Head style.
+New element with classname "sectionHeading" was added to showcase a different approach for inner headings. Also basic CSS was added to `head` element.
 
 **It looks as expected:**
 
@@ -52,5 +52,4 @@ Desktop:
 - Windows 10 Mail
 
 
-You can check the Litmus test results following this URL:
-https://litmus.com/checklist/emails/public/0515ac5
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/0515ac5)
