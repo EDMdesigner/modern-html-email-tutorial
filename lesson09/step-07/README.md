@@ -4,5 +4,4 @@ We still include fonts with @import approach. We only add `font-family` to custo
 Word-based Outlooks.
 
 
-You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/60e5980)
+[You can check the Litmus test results following this URL](https://litmus.com/checklist/emails/public/60e5980)

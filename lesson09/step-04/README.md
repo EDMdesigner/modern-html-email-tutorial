@@ -9,5 +9,4 @@ Heading, paragraphs, blockquote and .sectionHeading get table wrappers and style
 Border width with 16px becomes only 8px in Word-based Outlooks.
 
 
-You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/4e18ce2)
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/4e18ce2)
