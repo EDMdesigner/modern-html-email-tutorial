@@ -15,5 +15,4 @@ Desktop:
 - Outlook 2007, 2010, 2013, Windows 10 Mail
 
 
-You can check the Litmus test results following this URL:
-https://litmus.com/checklist/emails/public/ef8679f
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/ef8679f)

@@ -10,5 +10,4 @@ Desktop:
 
 Lot of inconsistencies on webmails.
 
-You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/67ab994)
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/67ab994)
