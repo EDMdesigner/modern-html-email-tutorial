@@ -34,5 +34,4 @@ Desktop:
 - Outlook 2007, 2010, 2013, 2013 120 dpi
 
 
-You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/d96248c)
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/d96248c)

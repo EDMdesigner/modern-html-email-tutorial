@@ -6,5 +6,4 @@ The layout HTML should be familiar from Lesson 03. It contains the most common t
 
 Some elements disappear on a lot of clients. Big differences are in visual appearence between mobile and desktop clients. Links are unformatted.
 
-You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/f2baa0f)
+[You can check the Litmus test results following this URL.](https://litmus.com/checklist/emails/public/f2baa0f)
