@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paddings, Margins and Borders in Modern HTML Emails - step 02</title>
+    <style>
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      table td {
+        border-collapse: collapse;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Outermost container in Outlook.com */
+      
+      .ReadMsgBody {
+        width: 100%;
+      }
+      
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arial;
+      }
+      
+      h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 10px;
+        padding-bottom: 24px;
+      }
+      
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+      }
+      
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: Georgia, Arial, sans-serif;
+      }
+      
+      @media all and (max-width: 599px) {
+        .container600 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color:#F4F4F4;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+      <tr>
+        <td style="background-color:#F4F4F4;padding:10px;">
+          <center>
+            <table class="container600" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;max-width:600px;">
+              <tr>
+                <td style="text-align:left;padding:0;">
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
+                        <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/img/logo.png" width="210" style="display: block;" />
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                          <td style="background-color:#F8F7F0;color:#58585A;padding:30px;">
+                          
+                                <h1>Paddings, margins and borders</h1>
+                                <p>In this sample HTML, I would like to demonstrate how these three well-known property acts in email HTML.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;" border="1">
+                                <tr>
+                                  <td style="background-color:#ffffff;color:#58585A;padding:10px;font-size: 16px;line-height: 20px;" align="center">
+                                    TableWrapper with padding reset and border, while contains only text. Margin value changed to padding, and moved to parent TD;
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="background-color:#ffffff;color:#58585A;padding:20px;" align="center">
+                                    
+                                    <table cellpadding="0" cellspacing="0" style="padding:0;background:#cdcdcd; border: 2px dashed #a0a0a0;margin: 0;">
+                                        <tr>
+                                            <td style="padding: 10px;">
+                                                <img alt="TableWrapper with padding reset and border, while contains only text. Margin value changed to padding, and moved to parent TD;" src="http://23skills.com/red/lesson-pmb/edmlogo120.jpg" width="120" height="90" style="display: block; width:auto; height:auto; "/>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="background-color:#ffffff;color:#58585A;padding:10px;font-size: 16px;line-height: 20px;" align="center">
+                                    TableWrapper with padding and border, while contains only text. Margin value changed to padding, and moved to parent TD;
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="background-color:#ffffff;color:#58585A;padding:20px;" align="center">
+                                  
+                                    <table cellpadding="0" cellspacing="0" style="padding:0;background:#cdcdcd; border: 2px dashed #a0a0a0;margin: 0;">
+                                        <tr>
+                                            <td style="padding: 10px;font-size: 16px;line-height: 20px;">TableWrapper with padding reset and border properties, while TD has the padding 10px; The margin 20px moved from the wrapper Table to the parent TD, and changed to padding:20px;</td>
+                                        </tr>
+                                    </table>
+                                    
+                                  </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <td width="100%" style="min-width:100%;background-color:#58585A;color:#FFFFFF;padding:30px;">
+                        <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;text-align:center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

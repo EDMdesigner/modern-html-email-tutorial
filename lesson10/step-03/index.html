@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paddings, Margins and Borders in Modern HTML Emails - step 03</title>
+    <style>
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      table td {
+        border-collapse: collapse;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Outermost container in Outlook.com */
+      
+      .ReadMsgBody {
+        width: 100%;
+      }
+      
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Arial;
+      }
+      
+      h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 10px;
+        padding-bottom: 24px;
+      }
+      
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+      }
+      
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: Georgia, Arial, sans-serif;
+      }
+      
+      @media all and (max-width: 599px) {
+        .container600 {
+          width: 100%;
+        }
+		
+		.fakeMargin {
+			width:0;
+			height:0;
+			display:none;
+			max-height:0;
+			max-width:0;
+		}
+      }
+    </style>
+  </head>
+  <body style="background-color:#F4F4F4;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+      <tr>
+        <td style="background-color:#F4F4F4;padding:10px;">
+          <center>
+            <table class="container600" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;max-width:600px;">
+              <tr>
+                <td style="text-align:left;padding:0;">
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
+                        <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson09/img/logo.png" width="210" style="display: block;" />
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                          <td style="background-color:#F8F7F0;color:#58585A;padding:30px;">
+                          
+                                <h1>Paddings, margins and borders</h1>
+                                <p>In this sample HTML, I would like to demonstrate how these three well-known property acts in email HTML.</p>
+								<p>Now we'll see how to make the right workaround for big margins/paddings which needs to disappear on mobile.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;" border="0">
+                                <tr>
+								  <td width="100" class="fakeMargin" style="background-color:#fdfdfd;padding:0;"></td>
+                                  <td style="background-color:#ffffff;color:#58585A;padding:20px;" align="center">
+								  
+									<table cellpadding="0" cellspacing="0" style="padding:0;background:#F8F7F0; border: 1px dashed #a0a0a0;margin: 0;">
+										<tr>
+                                            <td style="padding: 10px;font-size: 18px;font-weight:bold;line-height: 20px;">Lorem ipsum</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 10px;font-size: 16px;line-height: 20px;">Aenean sit amet volutpat sem. Cras a placerat felis. Maecenas mauris ex, rutrum quis quam et, iaculis porta dui. Mauris vel viverra dolor, non tempus elit. Maecenas cursus pellentesque dapibus. Nulla facilisi. Integer ac erat sit amet risus varius aliquam vitae ut arcu. Donec sed libero gravida purus aliquet volutpat ut sit amet arcu. Cras eget nunc convallis, pellentesque magna eget, faucibus purus. Ut venenatis lorem quis vulputate auctor. Etiam eget diam sodales massa porta cursus quis eu diam. In iaculis, nulla vitae consequat lacinia, felis quam molestie felis, fringilla mollis quam nisi at nunc. Phasellus sed blandit mi. Integer faucibus in lacus suscipit gravida.</td>
+                                        </tr>
+                                    </table>
+                                    
+                                  </td>
+								  <td width="100" class="fakeMargin" style="background-color:#fdfdfd;padding:0;"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                  </table>
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <td width="100%" style="min-width:100%;background-color:#58585A;color:#FFFFFF;padding:30px;">
+                        <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;text-align:center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
