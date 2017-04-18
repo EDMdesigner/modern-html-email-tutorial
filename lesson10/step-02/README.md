@@ -10,4 +10,4 @@ In this step, the IMG tag gets a Table wrapper, while P was replaced to a Table.
 
 
 You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/8767297)
+(https://litmus.com/checklist/emails/public/8767297

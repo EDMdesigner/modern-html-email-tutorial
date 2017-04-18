@@ -17,4 +17,4 @@ While IMG represent the native inline-block behavior, the P tag behaves as a blo
 
 
 You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/90ef8c4)
+https://litmus.com/checklist/emails/public/90ef8c4

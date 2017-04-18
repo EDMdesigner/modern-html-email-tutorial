@@ -10,4 +10,4 @@ In this step,we'll see how to make the right workaround for big margins/paddings
 
 
 You can check the Litmus test results following this URL:
-![](https://litmus.com/checklist/emails/public/315f843)
+(https://litmus.com/checklist/emails/public/315f843
