@@ -49,7 +49,8 @@
 			url: "http://blog.edmdesigner.com/typography-in-modern-html-emails/"
 		},
 		{
-			title: "Paddings, Margins and Borders in Modern HTML Emails"
+			title: "Paddings, Margins and Borders in Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/html-email-padding-margin-border/"
 		},
 		{
 			title: "Tabular Data in Modern HTML Emails"
