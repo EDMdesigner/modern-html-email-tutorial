@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson11 - step02</title>
+  <style>
+    html,
+    body,
+    table,
+    tbody,
+    tr,
+    td,
+    div,
+    p,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+      line-height: 0;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    table {
+      border-spacing: 0;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+    /* Outermost container in Outlook.com */
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Arial;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 32px;
+      padding-top: 10px;
+      padding-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+      padding-top: 10px;
+      padding-bottom: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      font-family: Georgia, Arial, sans-serif;
+    }
+
+    @media all and (max-width: 599px) {
+      .container600 {
+        width: 100%;
+      }
+      
+    
+      .smarttable {
+        border: 0;
+      }
+      .smarttable thead {
+        display:none;
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 0px;
+        margin: 0px;
+        overflow: hidden;
+        padding: 0;
+        max-width:0px;
+        max-height:0px;
+      }
+      .smarttable tr {
+        display: block;
+        width:90%;
+        margin:20px auto;
+      }
+      .smarttable td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 15px;
+        text-align: right;
+      }
+      .smarttable td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+    }
+  </style>
+</head>
+<body style="background-color:#F4F4F4;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+    <tr>
+      <td style="background-color:#F4F4F4;padding:10px;">
+        <center>
+          <table class="container600" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;max-width:600px;">
+            <tr>
+              <td style="text-align:left;padding:0;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                  <tr>
+                    <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
+                      <img alt="" src="https://edmdesigner.github.io//modern-html-email-tutorial/lesson10/img/logo.png" width="210" style="display: block;" />
+                    </td>
+                  </tr>
+                </table>
+                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                  <tr>
+                    <td style="background-color:#F8F7F0;color:#58585A;padding:30px;">
+
+                      <h1>Tabular Data in Modern HTML Emails</h1>
+                      <p>In this example, we test how pseudo elements and data-* attributes are supported across email clients. We apply the column labels by these two only.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:20px;">
+
+                        <table class="smarttable" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                          <thead>
+                            <tr>
+                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Name</th>
+                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Company</th>
+                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">City</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">John Doe</td>
+                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">XYZ Ltd.</td>
+                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Chicago</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Jack Doe</td>
+                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Doe Corp.</td>
+                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Oregon</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Joanna Doe</td>
+                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">BigData Corp.</td>
+                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Philadelphia</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">John Doe, jr</td>
+                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">freelancer</td>
+                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">Chicago</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                    </td>
+                  </tr>
+                </table>
+                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                  <tr>
+                    <td width="100%" style="min-width:100%;background-color:#58585A;color:#FFFFFF;padding:30px;">
+                      <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;text-align:center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
