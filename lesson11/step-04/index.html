@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson11 - step04</title>
+    <style>
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      table td {
+        border-collapse: collapse;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Outermost container in Outlook.com */
+      
+      .ReadMsgBody {
+        width: 100%;
+      }
+      
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 32px;
+        padding-top: 10px;
+        padding-bottom: 24px;
+      }
+
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: Georgia, Arial, sans-serif;
+      }
+    </style>
+    <style>
+      .container600 {
+        width: 600px;
+        max-width: 100%;
+      }
+
+      .col49 {
+        width: 49%;
+      }
+      
+      .col2 {
+       width: 2%;
+      }
+
+      
+      @media all and (max-width: 600px) {
+        .container600 {
+          width: 100% !important;
+        }
+      }
+      
+      
+      @media all and (max-width: 599px) {
+        .fluid {
+          width: 100% !important;
+        }
+        .reorder {
+          width: 100% !important;
+          max-width: 320px;
+          margin: 0 auto 10px;
+          float:none !important;
+        }
+        .ghost-column {
+          display:none;
+          height:0;
+          width:0;
+          overflow:hidden;
+          max-height:0;
+          max-width:0;
+        }
+      }
+    </style>
+
+    <!--[if gte mso 9]>
+        <style>
+            .ol {
+              width: 100%;
+            }
+        </style>
+    <![endif]-->
+  </head>
+
+<body style="background-color:#F4F4F4;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+    <tr>
+      <td style="background-color:#F4F4F4;padding:10px;">
+        <center>
+          <table class="container600" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;width:100%;max-width:600px;">
+            <tr>
+              <td style="text-align:left;padding:0;">
+
+                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                  <tr>
+                    <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
+                      <img alt="" src="https://edmdesigner.github.io//modern-html-email-tutorial/lesson10/img/logo.png" width="210" style="display: block;" />
+                    </td>
+                  </tr>
+                </table>
+
+                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                  <tr>
+                    <td style="background-color:#F8F7F0;color:#58585A;padding:30px;">      
+
+
+                        <h1>Tabular Data in Modern HTML Emails</h1>
+                        <p>In this example, we test how pseudo elements and data-* attributes are supported across email clients. We apply the column labels by these two only.</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:#F8F7F0;color:#58585A;padding:0px;">
+                      <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                        <tr>
+                          <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
+                            <h2>Shopping cart</h2>
+                            <h3>recommended by EDMdesigner.com</h3>
+                          </td>
+                        </tr>
+                      </table>              
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:20px;background-color:#F8F7F0;">
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="min-width: 100%;">
+
+                              <!--[if gte mso 9]><table width="100%" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                              <!--[if gte mso 9]><td width="49%" valign="top">                                                <![endif]-->
+                              <table class="ol col49 reorder" width="100%" align="left" style="width: calc(49%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="background-color:#ffffff;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+                                      <tr>
+                                        <td width="100%" style="min-width:100%;background-color:#F8F7F0;padding:15px;">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <h2 style="font-family:Arial;font-size:16px;line-height:24px;">ACER Liquid Z630 5.5" 16GB</h2>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <img alt="" src="https://cartronics.be/5312-home_default/acer-liquid-z630-16gb-4g-black.jpg" width="210" style="display: block;" />
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;">$146.7</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                              <!--[if gte mso 9]><td width="2%" valign="top">                                                <![endif]-->
+
+                              <table class="ol col2 ghost-column" width="100%" align="left" style="width: calc(2%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="line-height: 20px;">
+                                    &nbsp;
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                                <!--[if gte mso 9]><td width="49%" valign="top">                                                <![endif]-->
+                              <table class="ol col49 reorder" width="100%" align="left" style="width: calc(49%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="background-color:#ffffff;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+                                      <tr>
+                                        <td width="100%" style="min-width:100%;background-color:#F8F7F0;padding:15px;">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <h2 style="font-family:Arial;font-size:16px;line-height:24px;">APPLE iPhone 6S 128GB Pink</h2>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <img alt="" src="https://nextelshop.hu/shop_seopic/7298/unas_361921/270x250/unas_361921.jpg?time=1492530041" width="210" style="display: block;" />
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;">$349.0</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                              <!--[if gte mso 9]></td></tr></table>                                                <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="100%" valign="top" style="min-width: 100%;">
+
+                              <!--[if gte mso 9]><table width="100%" cellpadding="0" cellspacing="0"><tr><![endif]-->
+                                <!--[if gte mso 9]><td width="49%" valign="top">                                                <![endif]-->
+                              <table class="ol col49 reorder" width="100%" align="left" style="width: calc(49%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="background-color:#ffffff;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+                                      <tr>
+                                        <td width="100%" style="min-width:100%;background-color:#F8F7F0;padding:15px;">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <h2 style="font-family:Arial;font-size:16px;line-height:24px;">BLACKBERRY Leap White</h2>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <img alt="" src="http://mobilvarazs.hu/5060-home_default/blackberry-leap-white-grey.jpg" width="210" style="display: block;" />
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;">$218.3</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                                <!--[if gte mso 9]><td width="2%" valign="top">                                                <![endif]-->
+                              <table class="ol col2 ghost-column" width="100%" align="left" style="width: calc(2%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="line-height: 20px;">
+                                    &nbsp;
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                                <!--[if gte mso 9]><td width="49%" valign="top">                                                <![endif]-->
+                              <table class="ol col49 reorder" width="100%" align="left" style="width: calc(49%);" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="100%" valign="top" style="background-color:#ffffff;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+                                      <tr>
+                                        <td width="100%" style="min-width:100%;background-color:#F8F7F0;padding:15px;">
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <h2 style="font-family:Arial;font-size:16px;line-height:24px;">EMPORIA FLIP Basic White</h2>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                          <img alt="" src="https://i.alza.cz/Foto/f12/EM/EMMT02q.jpg" width="210" style="display: block;" />
+                                          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                            <tr>
+                                              <td style="padding-top:10px;padding-bottom:10px;">
+                                                <p style="font-family:Georgia,Arial,sans-serif;font-size:14px;line-height:18px;">$173.5</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <!--[if gte mso 9]></td><![endif]-->
+                                <!--[if gte mso 9]></td></tr></table>                                                <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <td style="background-color:#FFFFFF;padding:20px;">
+                        <table class="smarttable total" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                          <tr>
+                            <td class="mobile-hidden" colspan="2" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">TOTAL PRICE:</td>
+                            <td data-label="TOTAL PRICE" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$887.5</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                    <tr>
+                      <tbody>
+                        
+                      <td width="100%" style="min-width:100%;background-color:#58585A;color:#FFFFFF;padding:30px;">
+                        <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;text-align:center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                      </td>
+                      </tbody>
+                    </tr>
+                  </table>
+
+              </td>
+            </tr>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
