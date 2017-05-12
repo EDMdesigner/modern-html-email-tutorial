@@ -1,189 +1,157 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson11 - step03</title>
-  <style>
-    html,
-    body,
-    table,
-    tbody,
-    tr,
-    td,
-    div,
-    p,
-    ul,
-    ol,
-    li,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-      font-size: 0;
-      line-height: 0;
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-    }
-
-    table {
-      border-spacing: 0;
-      mso-table-lspace: 0pt;
-      mso-table-rspace: 0pt;
-    }
-
-    table td {
-      border-collapse: collapse;
-    }
-
-    .ExternalClass {
-      width: 100%;
-    }
-
-    .ExternalClass,
-    .ExternalClass p,
-    .ExternalClass span,
-    .ExternalClass font,
-    .ExternalClass td,
-    .ExternalClass div {
-      line-height: 100%;
-    }
-    /* Outermost container in Outlook.com */
-
-    .ReadMsgBody {
-      width: 100%;
-    }
-
-    img {
-      -ms-interpolation-mode: bicubic;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: Arial;
-    }
-
-    h1 {
-      font-size: 28px;
-      line-height: 32px;
-      padding-top: 10px;
-      padding-bottom: 24px;
-    }
-
-    h2 {
-      font-size: 24px;
-      line-height: 28px;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-
-    h3 {
-      font-size: 20px;
-      line-height: 24px;
-      padding-top: 10px;
-      padding-bottom: 16px;
-    }
-
-    p {
-      font-size: 16px;
-      line-height: 20px;
-      font-family: Georgia, Arial, sans-serif;
-    }
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One column layout</title>
+    <style>
+      html,
+      body,
+      table,
+      tbody,
+      tr,
+      td,
+      div,
+      p,
+      ul,
+      ol,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        line-height: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      table td {
+        border-collapse: collapse;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Outermost container in Outlook.com */
+      
+      .ReadMsgBody {
+        width: 100%;
+      }
+      
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
     </style>
     <style>
       .container600 {
         width: 600px;
         max-width: 100%;
       }
-
-    @media all and (max-width: 599px) {
-      .container600 {
-        width: 100% !important;
+      
+      @media all and (max-width: 600px) {
+        .container600 {
+          width: 100% !important;
+        }
       }
       
-    
-      .smarttable {
-        border: 0;
-        
-        
-      }
-      .smarttable thead {
-        display:none;
-        border: none;
-        clip: rect(0 0 0 0);
-        height: 0px;
-        margin: 0px;
-        overflow: hidden;
-        padding: 0;
-        max-width:0px;
-        max-height:0px;
-      }
-      .smarttable tr {
-        display: block;
-        width:90%;
-        margin:20px auto;
+      @media all and (max-width: 599px) {
 
-        margin-bottom: 10px !important;
-      }
-      .smarttable td {
-        border-bottom: 1px solid #ddd;
-        display: block;
-        font-size: 15px;
-        text-align: right;
-        background: #fdfdfd;
-      }
-      .smarttable td img {
-        border-bottom: 1px solid #ddd;
-        display: inline-block;
-        font-size: 15px;
-        text-align: right;
-      }
-      .smarttable td:before {
-        content: attr(data-label);
-        float: left;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
+          .container600 {
+          width: 100% !important;
+        }
 
-      .smarttable .mobile-hidden {
-        display:none;
-        border: none;
-        clip: rect(0 0 0 0);
-        height: 0px;
-        margin: 0px;
-        overflow: hidden;
-        padding: 0;
-        max-width:0px;
-        max-height:0px;
+        .smarttable {
+          border: 0;
+          
+          
+        }
+        .smarttable thead {
+          display:none;
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 0px;
+          margin: 0px;
+          overflow: hidden;
+          padding: 0;
+          max-width:0px;
+          max-height:0px;
+        }
+        .smarttable tr {
+          display: block;
+          width:90%;
+          margin:20px auto;
+
+          margin-bottom: 10px !important;
+        }
+        .smarttable td {
+          border-bottom: 1px solid #ddd;
+          display: block;
+          font-size: 15px;
+          text-align: right;
+          background: #fdfdfd;
+        }
+        .smarttable td img {
+          border-bottom: 1px solid #ddd;
+          display: inline-block;
+          font-size: 15px;
+          text-align: right;
+        }
+        .smarttable td:before {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .smarttable .mobile-hidden {
+          display:none;
+          border: none;
+          clip: rect(0 0 0 0);
+          height: 0px;
+          margin: 0px;
+          overflow: hidden;
+          padding: 0;
+          max-width:0px;
+          max-height:0px;
+        }
+
       }
+    </style>
 
-    }
-  </style>
-
-
-  <!--[if gte mso 9]>
-      <style>
-          .ol {
-            width: 100%;
-          }
-      </style>
-  <![endif]-->
-</head>
-<body style="background-color: #f4f4f4;">
+    <!--[if gte mso 9]>
+        <style>
+            .ol {
+              width: 100%;
+            }
+        </style>
+    <![endif]-->
+  </head>
+  <body style="background-color: #f4f4f4;">
     <center>
 
       <!--[if gte mso 9]><table width="600" cellpadding="0" cellspacing="0"><tr><td>
@@ -191,104 +159,132 @@
       <table class="container600" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:calc(100%);max-width:calc(600px);margin: 0 auto;">
         <tr>
           <td width="100%" style="text-align: left;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td width="100%" style="min-width:100%;background-color:#ffffff;padding:30px;">
+                  <img alt="EDMdesigner logo" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/logo.png" width="210" style="display: block;" />
+                </td>
+              </tr>
+            </table>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td width="100%" style="background-color:#F8F7F0;color:#58585A;padding:30px;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td style="padding-top:10px;padding-bottom:24px;">
+                        <h1 style="font-family:Arial;font-size:28px;line-height:32px;">Tabular Data in Modern HTML Emails</h1>
+                      </td>
+                    </tr>
+                  </table>
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td style="padding-top:15px;padding-bottom:15px;">
+                        <p style="font-family:Georgia, Arial, sans-serif;font-size:16px;line-height:20px;">In this example, we created a shopping cart based on a responsive table. We created it in comparison to the card layout method.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td width="100%" style="min-width:100%;background-color:#ffffff;padding:20px;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td style="padding-top:10px;padding-bottom:20px;background-color:#FFFFFF;color:#58585A;">
+                        <h2 style="font-family:Arial;font-size:24px;line-height:28px;">Shopping cart</h2>
+                      </td>
+                    </tr>
+                  </table>
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td style="padding-top:10px;padding-bottom:20px;background-color:#FFFFFF;color:#58585A;">
+                        <h3 style="font-family:Arial;font-size:20px;line-height:24px;">recommended by EDMdesigner.com</h3>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td style="background-color:#F8F7F0;padding:20px;">
 
-                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                  <tr>
-                    <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
-                      <img alt="" src="https://edmdesigner.github.io//modern-html-email-tutorial/lesson11/img/logo.png" width="210" style="display: block;" />
-                    </td>
-                  </tr>
-                </table>
-                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                  <tr>
-                    <td style="background-color:#F8F7F0;color:#58585A;padding:30px;">
+                  <table class="smarttable" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                        <thead>
+                          <tr>
+                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Product name</th>
+                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Product image</th>
+                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">ACER Liquid Z630 5.5" 16GB</td>
+                            <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
+                            <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/acer-liquid-z630-16gb-4g-black.jpg" width="210" style="display: inline-block;" />
+                            </td>
+                            <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$146.7</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">APPLE iPhone 6S 128GB Pink</td>
+                            <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
+                            <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/unas_361921.jpg" width="210" style="display: inline-block;" />
+                            </td>
+                            <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$349.0</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">BLACKBERRY Leap White</td>
+                            <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
+                              <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/blackberry-leap-white-grey.jpg" width="210" style="display: inline-block;" />
+                            </td>
+                            <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$218.3</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">EMPORIA FLIP Basic White</td>
+                            <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
+                           <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/EMMT02q.jpg" width="210" style="display: inline-block;" />
+                            </td>
+                            <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$173.5</td>
+                          </tr>
+                        </tbody>                         
+                    </table>
+                </td>
+              </tr>
+            </table>
 
-                      <h1>Tabular Data in Modern HTML Emails</h1>
-                      <p>In this example, we created a shopping cart based on a responsive table. We created it for comparison with the card layout method.</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="background-color:#F8F7F0;color:#58585A;padding:0px;">
-                      <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                        <tr>
-                          <td style="background-color:#FFFFFF;color:#000000;padding:30px;">
-                            <h2>Shopping cart</h2>
-                            <h3>recommended by EDMdesigner.com</h3>
-                          </td>
+           <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+              <tr>
+                <td style="background-color:#FFFFFF;padding:20px;">
+                  <table class="smarttable" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+                      <thead>
+                    <tr>
+                      <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Total Price</th>
                         </tr>
-                      </table>              
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding:20px;background-color:#F8F7F0;">
-
-                        <table class="smarttable" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                          <thead>
-                            <tr>
-                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Product name</th>
-                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Product image</th>
-                              <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Price</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">ACER Liquid Z630 5.5" 16GB</td>
-                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
-                              <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/acer-liquid-z630-16gb-4g-black.jpg" width="210" style="display: inline-block;" />
-                              </td>
-                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$146.7</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">APPLE iPhone 6S 128GB Pink</td>
-                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
-                              <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/unas_361921.jpg" width="210" style="display: inline-block;" />
-                              </td>
-                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$349.0</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">BLACKBERRY Leap White</td>
-                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
-                                <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/blackberry-leap-white-grey.jpg" width="210" style="display: inline-block;" />
-                              </td>
-                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$218.3</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Name" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">EMPORIA FLIP Basic White</td>
-                              <td data-label="Phone" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">
-                             <img alt="" src="https://edmdesigner.github.io/modern-html-email-tutorial/lesson11/img/EMMT02q.jpg" width="210" style="display: inline-block;" />
-                              </td>
-                              <td data-label="City" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$173.5</td>
-                            </tr>
-                          </tbody>                         
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-
-                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                  <tr>
-                    <td style="background-color:#FFFFFF;padding:20px;">
-                      <table class="smarttable total" width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                        <tr>
-                          <td class="mobile-hidden" colspan="2" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">TOTAL PRICE:</td>
-                          <td data-label="TOTAL PRICE" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$887.5</td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-
-                <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                  <tr>
-                    <tbody>
-                      
-                    <td width="100%" style="min-width:100%;background-color:#58585A;color:#FFFFFF;padding:30px;">
-                      <p style="font-size:16px;line-height:20px;font-family:Georgia,Arial,sans-serif;text-align:center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
-                    </td>
-                    </tbody>
-                  </tr>
-                </table>
-
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td data-label="Total Price" valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">$887.5</td>  
+                      </tr>
+                      </tbody>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width:100%;">
+              <tr>
+                <td width="100%" style="min-width:100%;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td style="padding:30px;background-color:#58585a;color:#ffffff;">
+                        <p style="font-family:Georgia, Arial, sans-serif;font-size:16px;line-height:20px;text-align: center;">2017 @ COPYRIGHT - EDMDESIGNER</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       </table>
