@@ -54,7 +54,7 @@
 		},
 		{
 			title: "Tabular Data In Modern HTML Emails",
-			url: "http://blog.edmdesigner.com/tabular-data-in-modern-html-emails"
+			url: "http://blog.edmdesigner.com/tabular-data-representation-in-modern-html-emails/"
 		},
 		{
 			title: "Interactive Emails"
