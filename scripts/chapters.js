@@ -53,7 +53,8 @@
 			url: "http://blog.edmdesigner.com/html-email-padding-margin-border/"
 		},
 		{
-			title: "Tabular Data in Modern HTML Emails"
+			title: "Tabular Data In Modern HTML Emails",
+			url: "http://blog.edmdesigner.com/tabular-data-in-modern-html-emails"
 		},
 		{
 			title: "Interactive Emails"
